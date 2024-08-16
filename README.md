@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is designed to simulate call center operations and provide real-time insights through a live dashboard. The core of this prototype revolves around creating a streamlined data source for dynamic reporting. Here’s how it works:
+This project is designed to simulate operations and provide real-time insights through a live dashboard. The core of this prototype revolves around creating a streamlined data source for dynamic reporting. Here’s how it works:
 
 Key Features:
 - Endless Operational Data Generation: Using Python, I generate continuous, randomized operational data to mimic real-world scenarios. This data is fed into an SQL Server database, creating an ever-changing data source.
