@@ -69,9 +69,21 @@ You can set environment variables using the following commands in the command pr
    ```sh
    python run_simulation.py
    ```
+### 5. Update Power BI Parameters
+
+1. Open the `Realtime Call Center Dashboard.pbix` file in Power BI Desktop.
+2. Go to the “Transform Data” option to open Power Query Editor.
+3. Find the parameter created for the server name in the "Parameters" section.
+4. Edit the parameter value to reflect the correct server name that matches the one used in your SQL Server instance.
+5. Close and Apply the changes in Power Query Editor.
 
 ## Troubleshooting
 
 - Module Not Found: If you receive errors about missing Python modules, ensure that you have installed all modules listed in `requirements.txt`.
 - SQL Connection Issues: Verify that the `SQL_SERVER_NAME` environment variable is correctly set and that you have access to the SQL Server.
 - Script Errors: If you encounter errors during script execution, check the script logs and ensure that the SQL script is valid and properly configured.
+
+
+
+
+
