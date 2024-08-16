@@ -2,7 +2,14 @@
 
 ## Overview
 
-This document provides instructions for setting up and running the Call Center Performance Simulation, which includes a Power BI report, a SQL setup script, and a Python simulation script.
+This project is designed to simulate call center operations and provide real-time insights through a live dashboard. The core of this prototype revolves around creating a streamlined data source for dynamic reporting. Here’s how it works:
+
+Key Features:
+- Endless Operational Data Generation: Using Python, I generate continuous, randomized operational data to mimic real-world scenarios. This data is fed into an SQL Server database, creating an ever-changing data source.
+- Live Dashboard with Power BI: By using Direct Query in Power BI, the dashboard receives real-time data updates directly from the SQL database. This setup ensures that the dashboard reflects the latest data, providing up-to-date insights into call center performance.
+- Realistic Data Simulation: The data generation process includes randomization and variability, enhancing the realism of the simulation and making the analysis more relevant to actual operational conditions.
+
+This document provides instructions for setting up and running the Call Center Performance Simulation, which includes a Power BI report, a SQL setup script, and a Python simulation script
 
 ## Prerequisites
 
