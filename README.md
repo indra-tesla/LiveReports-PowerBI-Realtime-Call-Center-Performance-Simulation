@@ -7,14 +7,14 @@ This document provides instructions for setting up and running the Call Center P
 ## Prerequisites
 
 1. Python: Ensure Python is installed on your system.
-2. SQL Server: Ensure you have access to a SQL Server instance. This can be a local or remote server.
+2. SQL Server: Ensure you can access an SQL Server instance. This can be a local or remote server.
 3. Required Python Modules: The simulation script requires specific Python modules. These will be installed via `pip`.
 
 ## Files Included
 
 - `setup.sql`: SQL script to set up the database schema and initial data.
 - `simulate_calls.py`: Python script to simulate call data.
-- `run_simulation.py`: Python script to automate the execution of the SQL script and the simulation script.
+- `run_simulation.py`: Python script to automate the execution of the SQL and simulation scripts.
 - `requirements.txt`: A file listing the required Python modules.
 
 ## Setup Instructions
@@ -22,9 +22,9 @@ This document provides instructions for setting up and running the Call Center P
 ### 1. Configure Environment Variables
 
 Ensure that the following environment variable is set:
-- `SQL_SERVER_NAME`: The name or IP address of your SQL Server instance.
+- `SQL_SERVER_NAME`: Your SQL Server instance's name or IP address.
 
-You can set environment variables using the following commands in the command promt:
+You can set environment variables using the following commands in the command prompt:
 - Windows:
   ```sh
   setx SQL_SERVER_NAME "YourServerName"
@@ -38,7 +38,7 @@ You can set environment variables using the following commands in the command pr
 
 1. Install Python if not already installed.
 2. Install Required Python Modules:
-   Navigate to the directory containing the `requirements.txt` file and run in the command promt:
+   Navigate to the directory containing the `requirements.txt` file and run in the command prompt:
    ```sh
    pip install -r requirements.txt
    ```
@@ -59,8 +59,9 @@ You can set environment variables using the following commands in the command pr
 
     For example:
     ```python
-    sql_file_path = 'C:/path/to/your/setup.sql'
-    simulation_script_path = 'C:/path/to/your/simulate_calls.py'
+    sql_file_path = 'D:\Reports\Realtime Call Center Performance Simulation\setup.sql'
+    simulation_script_path = 'D:\Reports\Realtime Call Center Performance Simulation\simulate_calls.py'
+    ```
 
 ### 4. Run the Simulation Script
 
